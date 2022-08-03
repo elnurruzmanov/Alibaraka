@@ -1,0 +1,78 @@
+.About {
+  padding: 140px 30px;
+  position: relative;
+}
+
+.About .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about_title {
+  width: 50%;
+}
+
+.About-images {
+  width: 50%;
+}
+
+.about-links {
+  display: flex;
+  align-items: center;
+}
+
+.about-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+  margin-top: 30px;
+}
+
+.about_info {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 54px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-top: 20px;
+}
+
+.about-links{
+  margin-top:30px;
+}
+
+.about-link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #037b35;
+  margin-top:30px;
+  text-decoration: none;
+  margin:0px 10px;
+  border:2px solid #037b35;
+  padding:12px 17px;
+  border-radius: 220px;
+  transition: 0.4s;
+}
+
+.about-link:hover{
+  transform: scale(1.1);
+}
+
+.About-images{
+  display: flex;
+  align-items: center;
+}
+
+.greenhouse2{
+  position: absolute; 
+  right: 170px;
+}

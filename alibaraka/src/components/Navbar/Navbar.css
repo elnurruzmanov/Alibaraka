@@ -1,0 +1,58 @@
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin: 0px 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.75px;
+  line-height: 17px;
+  /* text-decoration-line: line-through; */
+  color: #037b35;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  text-decoration-line: line-through;
+}
+
+.link1 {
+  text-decoration-line: line-through;
+}
+
+.phone-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.phone-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+.phone-number {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.5px;
+  line-height: 15px;
+  color: #037b35;
+  text-decoration: none;
+}
