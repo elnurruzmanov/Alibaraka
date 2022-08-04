@@ -25,7 +25,7 @@ const Product = () => {
           </div>
           <ul className="products-list">
             <li className="product-item">
-              <Link to={"/"} className="product-link">
+              <Link to={"/product"} className="product-link">
                 <img src={Plyonka} alt="" className="cellophane-img" />
                 <div className="product-titles">
                   <h3 className="product-title">Plyonka turlari</h3>
@@ -37,7 +37,7 @@ const Product = () => {
               </Link>
             </li>
             <li className="product-item">
-              <Link to={"/"} className="product-link">
+              <Link to={"/product"} className="product-link">
                 <img src={door} alt="" className="cellophane-img" />
                 <div className="product-titles">
                   <h3 className="product-title">Asosiy Zajim turlari</h3>
@@ -49,7 +49,7 @@ const Product = () => {
               </Link>
             </li>
             <li className="product-item">
-              <Link to={"/"} className="product-link">
+              <Link to={"/product"} className="product-link">
                 <img src={Irrigation} alt="" className="cellophane-img" />
                 <div className="product-titles">
                   <h3 className="product-title">Tomchilab sug’orish tizimi</h3>
@@ -61,7 +61,7 @@ const Product = () => {
               </Link>
             </li>
             <li className="product-item">
-              <Link to={"/"} className="product-link">
+              <Link to={"/product"} className="product-link">
                 <img src={Condisioner} alt="" className="cellophane-img" />
                 <div className="product-titles">
                   <h3 className="product-title">
@@ -75,7 +75,7 @@ const Product = () => {
               </Link>
             </li>
             <li className="product-item">
-              <Link to={"/"} className="product-link">
+              <Link to={"/product"} className="product-link">
                 <img src={Condisioner2} alt="" className="cellophane-img" />
                 <div className="product-titles">
                   <h3 className="product-title">
@@ -89,7 +89,7 @@ const Product = () => {
               </Link>
             </li>
             <li className="product-item">
-              <Link to={"/"} className="product-link">
+              <Link to={"/product"} className="product-link">
                 <img src={Aksessuars} alt="" className="cellophane-img" />
                 <div className="product-titles">
                   <h3 className="product-title">QO’shimcha aksessuarlar</h3>

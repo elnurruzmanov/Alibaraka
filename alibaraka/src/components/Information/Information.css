@@ -1,0 +1,89 @@
+.information-images {
+  width: 50%;
+}
+
+.information-accordion {
+  width: 50%;
+}
+
+.Information .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0px;
+}
+
+.information-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 35px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #037b35;
+  margin-bottom: 20px;
+}
+
+.Information-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: #1e252b;
+  margin-top: 10px;
+}
+
+.accordion {
+  margin-top: 30px;
+}
+
+.collapsible {
+  cursor: pointer;
+  margin: 30px 5px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #037b35;
+}
+
+.collapsible-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #037b35;
+  cursor: pointer;
+}
+
+.collapsible2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #fcbd17;
+}
+
+.collapsible-text2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #fcbd17;
+}
+
+.accordion {
+  border: 1px solid #e7e7e7;
+  border-radius: 20px;
+  padding:15px 20px
+}

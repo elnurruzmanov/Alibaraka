@@ -7,10 +7,10 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-// import Microsoft from "../../images/logos_microsoft.png"
-// import Google from "../../images/logos_google.png"
-// import Slack from "../../images/logos_slack.png"
-// import Wordpress from "../../images/logos_wordpress.png"
+// import Microsoft from "../../images/namecheap.svg";
+// import Google from "../../images/namecoin.svg";
+// import Slack from "../../images/logos_slack.png";
+// import Wordpress from "../../images/logos_wordpress.png";
 // import Juniper from "../../images/juniper.png"
 
 import "./Swipe.css";
@@ -21,40 +21,39 @@ const Swipe = () => {
   return (
     <>
       <div className="Swipe">
-        {/* <div className="container"> */}
-          <Swiper
-            slidesPerView={2}
-            spaceBetween={30}
-            slidesPerGroup={2}
-            loop={true}
-            loopFillGroupWithBlank={true}
-            pagination={{
-              clickable: true,
-            }}
-            navigation={true}
-            modules={[Pagination, Navigation]}
-            className="mySwiper"
-          >
-            <SwiperSlide>
-              {/* <img src={Microsoft} alt="" className="companies" /> */}
-              <p>name1</p>
-            </SwiperSlide>
-            <SwiperSlide>
-            {/* <img src={Google} alt="" className="companies" /> */}
+        <div className="container">
+        <Swiper
+          slidesPerView={2}
+          spaceBetween={30}
+          slidesPerGroup={2}
+          loop={true}
+          loopFillGroupWithBlank={true}
+          pagination={{
+            clickable: true,
+          }}
+          navigation={true}
+          modules={[Pagination, Navigation]}
+          className="mySwiper"
+        >
+          <SwiperSlide>
+            {/* <img src={Microsoft} alt="" className="companies" /> */}
             <p>name1</p>
-            </SwiperSlide>
-            <SwiperSlide>
+            
+          </SwiperSlide>
+          <SwiperSlide>
+            {/* <img src={Google} alt="" className="companiess" /> */}
+            <p>name2</p>
+          </SwiperSlide>
+          <SwiperSlide>
             {/* <img src={Slack} alt="" className="companies" /> */}
-            <p>name1</p>
-            </SwiperSlide>
-            <SwiperSlide>
+            <p>name2</p>
+          </SwiperSlide>
+          <SwiperSlide>
             {/* <img src={Wordpress} alt="" className="companies" /> */}
-            <p>name1</p>
-            </SwiperSlide>
-          </Swiper>
-        {/* </div> */}
-        {/* <div className="Juniper"></div> */}
-        {/* <img src={Juniper} alt="" className="juniper" /> */}
+            <p>name2</p>
+          </SwiperSlide>
+        </Swiper>
+      </div>
       </div>
     </>
   );

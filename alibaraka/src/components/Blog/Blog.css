@@ -1,0 +1,138 @@
+.Blog .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.blog-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 30px;
+  color: #444444;
+}
+
+.Blog-info {
+  width: 50%;
+  position: relative;
+}
+
+.more-info {
+  background: #ffffff;
+  box-shadow: 14px 14px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+  width: 280px;
+  padding: 15px 20px;
+  position: absolute;
+  bottom: 28%;
+}
+
+.more-infos {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 25px;
+  color: #037b35;
+  margin-bottom: 15px;
+}
+
+.more-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  color: #050505;
+  margin-top: 10px;
+}
+
+.more-infos1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 23px;
+  color: #037b35;
+  margin-top: 20px;
+}
+
+.stories-successful {
+  margin-top: 30px;
+  border-top: 1px solid #dadada;
+  margin-top: 18px;
+}
+
+.stories-info {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 42.5382px;
+  line-height: 40px;
+  color: #444444;
+  margin-bottom: 40px;
+}
+
+.stories-infos {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  color: #037b35;
+  margin-top: 20px;
+}
+
+.stories-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+  color: #363636;
+  margin-top: 20px;
+}
+
+.stories-link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #037b35;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.stories-links {
+  margin-top: 15px;
+}
+
+.links-button {
+  background: #037b35;
+  box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 49px;
+  padding: 12px 15px;
+  margin-left: 15px;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.links-button:hover{
+  background: #20ae5b;
+}
+
+.companys{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

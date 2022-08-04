@@ -20,10 +20,10 @@ const About = () => {
               ishonchini egallab, yanada rivojlanishda davom etmoqdamiz.
             </p>
             <div className="about-links">
-              <Link to="/about" className="about-link">
+              <Link to="/" className="about-link">
                 KO'PROQ
               </Link>
-              <Link to="/about" className="about-link">
+              <Link to="/" className="about-link">
                 BIZNING YOUTUBE
               </Link>
             </div>

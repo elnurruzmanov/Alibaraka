@@ -49,28 +49,21 @@ body {
 
 .mySwiper{
   padding:60px 30px;
-  margin-top:30px;
-  /* background-image: url("../../images/companies2.png");
-  background-repeat: no-repeat; */
+
 }
 
 .Swipe{
-   background-image: url("../../images/companies2.png");
+  background-image: url("../../images/companies2.png");
   background-repeat: no-repeat;
-  background-position: center;
-  /* background-size: cover; */
+  background-position: center; 
+  background-size: 100%;
 }
 
-.companies{
-  width:30px;
+.swiper-slide{
+  padding: 20px;
 }
 
-.juniper{
-  position: absolute;
-  top:120px;
-  left: -20px;
+.companiess{
+  width:40px
 }
 
-/* .Juniper{
-  background-image: url("../../images/juniper.png");
-} */
