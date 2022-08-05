@@ -1,18 +1,6 @@
-/* #app { height: 100% }
-html,
-body {
+.Swipe {
   position: relative;
-  height: 100%;
-} */
-
-/* body {
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
-} */
+}
 
 .swiper {
   width: 100%;
@@ -23,8 +11,6 @@ body {
   text-align: center;
   font-size: 18px;
   background: #fff;
-
-  /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -46,24 +32,19 @@ body {
   object-fit: cover;
 }
 
-
-.mySwiper{
-  padding:60px 30px;
-
+.mySwiper {
+  padding: 60px 30px;
+  position: absolute;
 }
 
-.Swipe{
-  background-image: url("../../images/companies2.png");
-  background-repeat: no-repeat;
-  background-position: center; 
-  background-size: 100%;
-}
 
-.swiper-slide{
+
+.swiper-slide {
   padding: 20px;
 }
 
-.companiess{
-  width:40px
+.companiess {
+  width: 40px;
+  padding: 40px;
+  background-color: #0000;
 }
-

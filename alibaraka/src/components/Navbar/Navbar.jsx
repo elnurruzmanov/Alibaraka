@@ -14,7 +14,7 @@ function Navbar() {
           <img src={Frame} alt="" />
           <ul className="nav-list">
             <li className="nav-item">
-              <Link to="/" className="nav-link link1">
+              <Link to="/product" className="nav-link link1">
                 Mahsulotlar
               </Link>
             </li>
@@ -29,12 +29,12 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/contact" className="nav-link">
+              <Link to="/register" className="nav-link">
                 Aloqa
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/contact" className="nav-link">
+              <Link to="/footer" className="nav-link">
                 Uz
               </Link>
             </li>
