@@ -1,6 +1,9 @@
 import React from "react";
 import "./Product.css";
 import { Link } from "react-router-dom";
+
+import Bounce from "react-reveal/Bounce";
+import Slide from 'react-reveal/Slide';
 //images
 import Plyonka from "../../images/plyonka.png";
 import door from "../../images/door.png";
@@ -24,18 +27,21 @@ const Product = () => {
             </p>
           </div>
           <ul className="products-list">
-            <li className="product-item">
-              <Link to={"/product"} className="product-link">
-                <img src={Plyonka} alt="" className="cellophane-img" />
-                <div className="product-titles">
-                  <h3 className="product-title">Plyonka turlari</h3>
-                  <p className="text">
-                    Et magni et ea unde tempore. Corrupti quia adipisci qui
-                    dicta sint.
-                  </p>
-                </div>
-              </Link>
-            </li>
+            <Slide left>
+              <li className="product-item">
+                <Link to={"/product"} className="product-link">
+                  <img src={Plyonka} alt="" className="cellophane-img" />
+                  <div className="product-titles">
+                    <h3 className="product-title">Plyonka turlari</h3>
+                    <p className="text">
+                      Et magni et ea unde tempore. Corrupti quia adipisci qui
+                      dicta sint.
+                    </p>
+                  </div>
+                </Link>
+              </li>
+            </Slide>
+            <Slide right>
             <li className="product-item">
               <Link to={"/product"} className="product-link">
                 <img src={door} alt="" className="cellophane-img" />
@@ -48,6 +54,8 @@ const Product = () => {
                 </div>
               </Link>
             </li>
+            </Slide>
+            <Slide left>
             <li className="product-item">
               <Link to={"/product"} className="product-link">
                 <img src={Irrigation} alt="" className="cellophane-img" />
@@ -60,6 +68,8 @@ const Product = () => {
                 </div>
               </Link>
             </li>
+            </Slide>
+            <Slide right>
             <li className="product-item">
               <Link to={"/product"} className="product-link">
                 <img src={Condisioner} alt="" className="cellophane-img" />
@@ -74,6 +84,8 @@ const Product = () => {
                 </div>
               </Link>
             </li>
+            </Slide>
+            <Slide left>
             <li className="product-item">
               <Link to={"/product"} className="product-link">
                 <img src={Condisioner2} alt="" className="cellophane-img" />
@@ -88,6 +100,8 @@ const Product = () => {
                 </div>
               </Link>
             </li>
+            </Slide>
+            <Slide right>
             <li className="product-item">
               <Link to={"/product"} className="product-link">
                 <img src={Aksessuars} alt="" className="cellophane-img" />
@@ -100,6 +114,7 @@ const Product = () => {
                 </div>
               </Link>
             </li>
+            </Slide>
           </ul>
           <img src={Cloud} alt="" className="cloud-image" />
         </div>

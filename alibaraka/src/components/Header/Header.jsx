@@ -1,15 +1,17 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Header.css";
 import Navbar from "../Navbar/Navbar";
 
 //images
-import Right from "../images/Vector.png"
-import circle from "../images/circle.png"
-import play from "../images/play.png"
-import Footer from "../images/header_footer.png"
+import Right from "../images/Vector.png";
+import circle from "../images/circle.png";
+import play from "../images/play.png";
+import Footer from "../images/header_footer.png";
+
+import Fade from "react-reveal/Fade";
 
 function Header() {
-  const[image, setImage] = useState()
+  // const [image, setImage] = useState();
 
   return (
     <>
@@ -17,11 +19,17 @@ function Header() {
         <Navbar />
         <div className="container">
           <div className="header">
-            <div className="header-title">
-              <h1 className="header-info">Samarali issiqxona quraylik</h1>
-              <p className="header-text">Bu erda kompaniyamiz haqida qisqacha ma'lumot va takliflarimizning ba'zi afzalliklari bo'ladi. Bu erda kompaniyamiz haqida qisqacha ma'lumot beriladi.</p>
-              <button className="header-btn">Qo'shimcha ma'lumotlar</button>
-            </div>
+            <Fade left>
+              <div className="header-title">
+                <h1 className="header-info">Samarali issiqxona quraylik</h1>
+                <p className="header-text">
+                  Bu erda kompaniyamiz haqida qisqacha ma'lumot va
+                  takliflarimizning ba'zi afzalliklari bo'ladi. Bu erda
+                  kompaniyamiz haqida qisqacha ma'lumot beriladi.
+                </p>
+                <button className="header-btn">Qo'shimcha ma'lumotlar</button>
+              </div>
+            </Fade>
             <div className="header-images">
               <img src={Right} alt="" className="right-images" />
               <img src={circle} alt="" className="circle" />

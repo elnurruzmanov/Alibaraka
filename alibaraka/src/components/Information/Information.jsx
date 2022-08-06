@@ -3,6 +3,8 @@ import "./Information.css";
 
 import Collapsible from "react-collapsible";
 
+import Slide from 'react-reveal/Slide';
+
 import Flags from "../images/flags.png";
 
 const Information = () => {
@@ -10,6 +12,7 @@ const Information = () => {
     <>
       <div className="Information">
         <div className="container">
+        <Slide left>
           <div className="information-images">
             <img src={Flags} alt="" className="flags" />
           </div>
@@ -118,6 +121,7 @@ const Information = () => {
               </Collapsible>
             </div>
           </div>
+          </Slide>
         </div>
       </div>
     </>

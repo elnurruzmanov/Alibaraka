@@ -3,17 +3,24 @@ import "./Blog.css";
 
 import { Link } from "react-router-dom";
 
+// import LightSpeed from 'react-reveal/LightSpeed';
+
+import Slide from 'react-reveal/Slide';
+
 import Photo from "../images/new-img.png";
 
 const Blog = () => {
   return (
     <>
       <div className="Blog">
+      <Slide left>
         <div className="container">
+     
           <div className="Blog-info">
             <h3 className="blog-title">How our client made 10x revenue</h3>
             <img src={Photo} alt="" className="new-photo" />
           </div>
+          
           <div className="more-info">
             <h4 className="more-infos">
               "Bugungi kunda oziq-ovqat xavfsizligi butun dunyoda eng dolzarb
@@ -67,6 +74,7 @@ const Blog = () => {
             </div>
           </div>
         </div>
+        </Slide>
       </div>
     </>
   );

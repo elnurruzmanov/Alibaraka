@@ -7,6 +7,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
+import Reveal from 'react-reveal/Reveal';
+
 // import Microsoft from "../../images/logos_microsoft.svg";
 import Google from "../../images/logos_google.svg";
 import Slack from "../../images/logos_slack.svg";
@@ -22,6 +24,7 @@ const Swipe = () => {
     <>
       <div className="Swipe">
         <div className="container">
+        <Reveal effect="fadeInUp">
           <Swiper
             slidesPerView={2}
             spaceBetween={30}
@@ -35,6 +38,7 @@ const Swipe = () => {
             modules={[Pagination, Navigation]}
             className="mySwiper"
           >
+             
             <div className="my_swiper">
             <SwiperSlide>
             <img src={Wordpress} alt="" className="companiess" />
@@ -49,7 +53,9 @@ const Swipe = () => {
               <img src={Wordpress} alt="" className="companiess" />
             </SwiperSlide>
             </div>
+            
           </Swiper>
+          </Reveal>
         </div>
       </div>
     </>

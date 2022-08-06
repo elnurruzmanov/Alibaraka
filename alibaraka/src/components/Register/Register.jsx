@@ -3,6 +3,9 @@ import "./Register.css";
 
 import Gardener from "../images/gardender.png";
 
+import Slide from 'react-reveal/Slide';
+
+
 import { useForm } from "react-hook-form";
 
 const Register = () => {
@@ -27,6 +30,7 @@ const Register = () => {
   return (
     <>
       <div className="Register">
+      <Slide left>
         <div className="container">
           <img src={Gardener} alt="" />
           <h3 className="register-title">BIZGA SAVOLLARINGIZ BORMI?</h3>
@@ -97,6 +101,7 @@ const Register = () => {
             </button>
           </form>
         </div>
+        </Slide>
       </div>
     </>
   );
