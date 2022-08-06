@@ -23,15 +23,15 @@
   line-height: 17px;
   /* text-decoration-line: line-through; */
   color: #037b35;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 .nav-link:hover {
-  text-decoration-line: line-through;
+  text-decoration: underline;
 }
 
 .link1 {
-  text-decoration-line: line-through;
+  text-decoration:underline;
 }
 
 .phone-list {
