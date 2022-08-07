@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css"
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 //icons
 import Frame from "../images/Frame.png"

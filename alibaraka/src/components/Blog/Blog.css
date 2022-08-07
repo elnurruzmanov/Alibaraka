@@ -26,7 +26,7 @@
   width: 280px;
   padding: 15px 20px;
   position: absolute;
-  bottom: 22%;
+  bottom: 8%;
 }
 
 .more-infos {
@@ -127,11 +127,11 @@
   transition: 0.4s;
 }
 
-.links-button:hover{
+.links-button:hover {
   background: #20ae5b;
 }
 
-.companys{
+.companys {
   display: flex;
   align-items: center;
   justify-content: center;

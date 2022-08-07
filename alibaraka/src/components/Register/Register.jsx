@@ -2,6 +2,7 @@ import React from "react";
 import "./Register.css";
 
 import Gardener from "../images/gardender.png";
+// import { Link } from "react-router-dom";
 
 import Slide from 'react-reveal/Slide';
 
