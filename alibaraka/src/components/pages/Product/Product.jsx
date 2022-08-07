@@ -32,7 +32,13 @@ const Product = () => {
                   id={product.id}
                   to={`/categoryId=${product.id}`}
                   onClick={() => window.scrollTo({ top: 0 })}
-                ></Link>
+                >
+                  <div className="card">
+                    <div className="card-left">
+                      <img className="product_img" src={product.image} alt="" />
+                    </div>
+                  </div>
+                </Link>
               </li>
             ))}
         </ul>
